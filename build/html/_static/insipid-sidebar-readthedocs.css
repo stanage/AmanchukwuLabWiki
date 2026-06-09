@@ -1,0 +1,24 @@
+
+
+#ethical-ad-placement {
+    margin-top: auto;
+    padding-top: 3em;
+    min-height: 200px;
+}
+
+#sidebar-checkbox:not(:checked) ~ .ethical-fixedfooter {
+    left: 0;
+    right: 0;
+    width: unset;
+}
+
+#sidebar-checkbox:checked ~ .ethical-fixedfooter {
+    left: var(--sidebar-width);
+    right: 0;
+    width: unset;
+}
+
+body:not(.sidebar-resizing) .ethical-fixedfooter {
+    transition: left 0.3s ease-out;
+}
+
