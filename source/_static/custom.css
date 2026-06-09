@@ -1,0 +1,4 @@
+.hide-title h1 { display: none !important; }
+.hide-title h1 {
+    display: none;
+}

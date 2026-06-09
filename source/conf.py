@@ -30,5 +30,9 @@ exclude_patterns = []
 
 html_theme = 'sphinx_rtd_theme'
 html_static_path = ['_static']
-html_title = "AmanchukwuLab_Wiki"
-html_short_title = "AmanchukwuLab_Wiki"
+
+def setup(app):
+    app.add_css_file('_static/custom.css')
+
+html_static_path = ['_static']
+html_css_files = ['custom.css']
