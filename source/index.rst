@@ -12,7 +12,7 @@ Amanchukwu Lab Wiki
      <img src="_static/pikachu.png" alt="Pikachu mascot" width="200px" style="flex-shrink: 0;"/>
      <div>
        <p style="font-family: 'Caveat', cursive; font-size: 1.6rem;">
-         I'm Pikachu, the Amanchukwu Lab mascot! Got any questions? <b>Ask me!</b>
+         I'm Pikachu, the Amanchukwu Lab mascot! <br>Got any questions? <b>Ask me!</b>
        </p>
      </div>
    </div>
