@@ -1,7 +1,7 @@
 .. AmanchukwuLab_Wiki documentation master file, created by
    sphinx-quickstart on Mon Jun  8 22:29:29 2026.
 
-AmanchukwuLab_Wiki
+Amanchukwu Lab Wiki
 ==================
 
 .. raw:: html
@@ -12,8 +12,7 @@ AmanchukwuLab_Wiki
      <img src="_static/pikachu.png" alt="Pikachu mascot" width="200px" style="flex-shrink: 0;"/>
      <div>
        <p style="font-family: 'Caveat', cursive; font-size: 1.6rem;">
-         I'm Pikachu, the AmanchukwuLab mascot! If you have any questions 
-         ask me before going to Argonne.
+         I'm Pikachu, the Amanchukwu Lab mascot! Got any questions? <b>Ask me!</b>
        </p>
      </div>
    </div>
