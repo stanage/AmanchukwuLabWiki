@@ -1,0 +1,7 @@
+# Sphinx build output (Read the Docs rebuilds this on every push)
+build/
+
+# Python
+.venv/
+__pycache__/
+*.pyc
