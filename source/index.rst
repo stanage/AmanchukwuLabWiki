@@ -18,22 +18,47 @@ Amanchukwu Lab Wiki
    </div>
    
 
+.. toctree::
+   :maxdepth: 2
+   :caption: Getting Started
+
+   New Member Checklist <getting_started/new_member_checklist>
+   Training Log Template <getting_started/training_log_template>
+   Docks and Mail Rooms <getting_started/docks_and_mail_rooms>
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Safety
+
+   Safety Training <safety/safety_training_index>
+   Chemical Safety <safety/chemical_safety_index>
+   Equipment Safety <safety/equipment_safety_index>
+   Gas Safety <safety/gas_safety_index>
+   Emergency Procedures <safety/emergency_procedures_index>
+
 
 .. toctree::
    :maxdepth: 2
-   :caption: Raman Spectroscopy
+   :caption: SOPs
 
-   Introduction to Raman <raman>
-   Raman Data <raman>
-   Using Raman <raman>
+   sops/index
 
 .. toctree::
    :maxdepth: 2
-   :caption: NMR Spectroscopy
+   :caption: Equipment & Instrumentation
 
-   Introduction to NMR <nmr>
-   NMR spectra <nmr>
-   K NMR <nmr>
-   H NMR <nmr>
+   equipment/index
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Code & Computational Resources
+
+   code/index
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Research & Academics
+
+   research_academics/index
 
 
