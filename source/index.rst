@@ -12,27 +12,17 @@ Amanchukwu Lab Wiki
      <img src="_static/pikachu.png" alt="Pikachu Mascot" width="200px" style="flex-shrink: 0;"/>
      <div>
        <p style="font-family: 'Caveat', cursive; font-size: 1.6rem;">
-         I'm Pikachu, the Amanchukwu Lab mascot! <br>Got any questions? <b>Ask me!</b>
+         I'm Pikachu, the Amanchukwu Lab mascot! <br>Got any questions? Ask me!
        </p>
      </div>
    </div>
-   
+
 
 .. toctree::
    :maxdepth: 2
-   :caption: Getting Started
+   :caption: Lab Safety
 
-   New Member Checklist <getting_started/new_member_checklist>
-   Training Log Template <getting_started/training_log_template>
-   Docks and Mail Rooms <getting_started/docks_and_mail_rooms>
-
-.. toctree::
-   :maxdepth: 1
-   :caption: Safety
-
-   Safety Training <safety/safety_training_index>
    Chemical Safety <safety/chemical_safety_index>
-   Equipment Safety <safety/equipment_safety_index>
    Gas Safety <safety/gas_safety_index>
    Emergency Procedures <safety/emergency_procedures_index>
 
