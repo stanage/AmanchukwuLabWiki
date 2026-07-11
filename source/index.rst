@@ -31,24 +31,30 @@ Amanchukwu Lab Wiki
    :maxdepth: 2
    :caption: SOPs
 
-   sops/index
+   Glovebox Procedure <sops/glovebox_procedure>
+   Needle Usage  <sops/needle_usage>
+   Load Cell Operation <sops/load_cell_operation>
+   Coin Cell Disposal <sops/coin_cell_disposal>
+   Cell Assembly <sops/cell_assembly>
+   Lab purchases <sops/lab_purchases>
+
 
 .. toctree::
    :maxdepth: 2
    :caption: Equipment & Instrumentation
 
-   equipment/index
+   Sample Preparation & Handling <equipment/handling_index>
+   Analytical & Characterization <equipment/characterization_index>
+   Electrochemical Testing <equipment/electrochemical_index>
+
 
 .. toctree::
    :maxdepth: 2
-   :caption: Code & Computational Resources
+   :caption: Code & Computation
 
-   code/index
+   Scientific Workloads <code/workloads_index>
+   Infrastructure <code/infrastructure_index>
 
-.. toctree::
-   :maxdepth: 2
-   :caption: Research & Academics
 
-   research_academics/index
 
 
