@@ -34,7 +34,22 @@ Critical Contacts at a Glance
    * - **UCM Facilities Plant:** 
      - 773-702-6295.
 
-* **Post-Incident Action:** In all cases, file a UCAIR report (ucair.uchicago.edu) once you are completely out of danger.
+* **Post-Incident Action:** In all cases, file a `UCAIR report <https://ucair.uchicago.edu/>`_ once you are completely out of danger.
+
+--------------
+Emergency Room
+--------------
+
+.. raw:: html
+
+   <figure style="margin: 1em 0; max-width: 600px;">
+       <iframe src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d2974.761757833567!2d-87.60584897505284!3d41.79034782090548!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e6!4m3!3m2!1d41.7891147!2d-87.6017234!4m5!1s0x880e29d54f02f1c3%3A0x9aa3ad71c9c82911!2sUniversity%20of%20Chicago%20Emergency%20Department%20and%20Trauma%20Center%2C%205656%20S%20Maryland%20Ave%2C%20Chicago%2C%20IL%2060637!3m2!1d41.7915748!2d-87.6050872!5e0!3m2!1sen!2sus!4v1783858101054!5m2!1sen!2sus" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+       <figcaption style="margin-top: 8px; font-style: italic; color: #555; text-align: center;">
+           Directions to the Emergency Room from the lab.
+       </figcaption>
+   </figure>
+
+..
 
 -------------------------------------
 Essential First Aid & Spill Responses

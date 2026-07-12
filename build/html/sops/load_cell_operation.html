@@ -6,7 +6,7 @@
   <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Load Cell Operation &mdash; Amanchukwu Lab Wiki  documentation</title>
+  <title>Load Cell Operation &amp; Calibration &mdash; Amanchukwu Lab Wiki  documentation</title>
       <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=b86133f3" />
       <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=9edc463e" />
 
@@ -19,8 +19,8 @@
     <script src="../_static/js/theme.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Coin Cell Disposal SOP" href="coin_cell_disposal.html" />
-    <link rel="prev" title="Needle Usage SOP" href="needle_usage.html" /> 
+    <link rel="next" title="Coin Cell Assembly SOPs (Molten Salt Systems)" href="cell_assembly.html" />
+    <link rel="prev" title="Needle Usage Standard Operating Procedure" href="needle_usage.html" /> 
 </head>
 
 <body class="wy-body-for-nav"> 
@@ -52,8 +52,16 @@
 <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="glovebox_procedure.html">Glovebox Procedure</a></li>
 <li class="toctree-l1"><a class="reference internal" href="needle_usage.html">Needle Usage</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">Load Cell Operation</a></li>
-<li class="toctree-l1"><a class="reference internal" href="coin_cell_disposal.html">Coin Cell Disposal</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Load Cell Operation</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#wiring-power-setup">1. Wiring &amp; Power Setup</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#parameter-menu-overview">2. Parameter Menu Overview</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#how-to-edit-parameters">How to Edit Parameters</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#step-by-step-calibration-sequence">3. Step-by-Step Calibration Sequence</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#verification-routine-testing">4. Verification &amp; Routine Testing</a></li>
+</ul>
+</li>
 <li class="toctree-l1"><a class="reference internal" href="cell_assembly.html">Cell Assembly</a></li>
 <li class="toctree-l1"><a class="reference internal" href="lab_purchases.html">Lab purchases</a></li>
 </ul>
@@ -83,7 +91,7 @@
           <div role="navigation" aria-label="Page navigation">
   <ul class="wy-breadcrumbs">
       <li><a href="../index.html" class="icon icon-home" aria-label="Home"></a></li>
-      <li class="breadcrumb-item active">Load Cell Operation</li>
+      <li class="breadcrumb-item active">Load Cell Operation &amp; Calibration</li>
       <li class="wy-breadcrumbs-aside">
             <a href="../_sources/sops/load_cell_operation.rst.txt" rel="nofollow"> View page source</a>
       </li>
@@ -93,21 +101,86 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
              
-  <section id="load-cell-operation">
-<h1>Load Cell Operation<a class="headerlink" href="#load-cell-operation" title="Link to this heading"></a></h1>
+  <section id="load-cell-operation-calibration">
+<h1>Load Cell Operation &amp; Calibration<a class="headerlink" href="#load-cell-operation-calibration" title="Link to this heading"></a></h1>
+<p>This page covers the initial wiring, parameter configuration, and calibration sequence for the laboratory load cell equipped with an LED digital indicator.</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p><strong>Equipment Rating Notice:</strong>
+Our laboratory load cell is strictly rated up to a maximum capacity of 100 kg. Do not exceed this weight limit.</p>
+</div>
+<section id="wiring-power-setup">
+<h2>1. Wiring &amp; Power Setup<a class="headerlink" href="#wiring-power-setup" title="Link to this heading"></a></h2>
+<ol class="arabic simple">
+<li><p>Wire the load cell into connections 9, 10, 11, and 12 on the indicator unit.</p></li>
+<li><p>Wire the primary power cord into connections 1 and 3.</p></li>
+<li><p>Plug the unit into an approved laboratory power source.</p></li>
+</ol>
+</section>
+<section id="parameter-menu-overview">
+<h2>2. Parameter Menu Overview<a class="headerlink" href="#parameter-menu-overview" title="Link to this heading"></a></h2>
+<p>To enter the parameter configuration interface, hold down the <strong>SET</strong> button until the parameter menu opens (the display will first show <code class="docutils literal notranslate"><span class="pre">AL1</span></code>). While you can ignore many of the factory defaults, the following parameters are critical for accurate operation:</p>
+<ul class="simple">
+<li><p><strong>USP:</strong> The specific mass of the known physical object you intend to use for calibration.</p></li>
+<li><p><strong>dP:</strong> The physical position of the decimal point displayed on the PV screen.</p></li>
+<li><p><strong>Unt:</strong> The measurement unit indicator.</p>
+<ul>
+<li><p><code class="docutils literal notranslate"><span class="pre">g</span></code> = Grams</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">Backwards</span> <span class="pre">y</span> <span class="pre">g</span></code> = Kilograms (kg) — <em>Set to kg as our default standard.</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">gamma</span></code> = Tons</p></li>
+</ul>
+</li>
+</ul>
+<section id="how-to-edit-parameters">
+<h3>How to Edit Parameters<a class="headerlink" href="#how-to-edit-parameters" title="Link to this heading"></a></h3>
+<ul>
+<li><p><strong>Enter Editing Mode:</strong> Press the <strong>&lt;&lt;/M</strong> button to enter editing mode for a highlighted parameter.</p></li>
+<li><p><strong>Save &amp; Advance:</strong> Press <strong>SET</strong> to save changes and advance to the next parameter in the menu sequence.</p></li>
+<li><p><strong>Modifying Values (USP / dP):</strong> Use the <strong>&lt;&lt;/M</strong> key to shift leftwards between digits. Press the <strong>^</strong> (Up) or <strong>v</strong> (Down) keys to change the active flashing number.</p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>Source file: <code class="docutils literal notranslate"><span class="pre">Load_cell_operation.docx</span></code></p>
+<p><strong>Tip:</strong> Shifting all the way to the far-left digit and reducing the value to zero unlocks additional right-side decimal resolution.</p>
 </div>
-<p><em>Content to be added.</em></p>
+</li>
+<li><p><strong>Modifying Units (Unt):</strong> Press the <strong>^</strong> or <strong>v</strong> keys to toggle between units.</p></li>
+<li><p><strong>Exit Menu:</strong> Hold down the <strong>SET</strong> button to return to the main operation display.</p></li>
+</ul>
+</section>
+</section>
+<section id="step-by-step-calibration-sequence">
+<h2>3. Step-by-Step Calibration Sequence<a class="headerlink" href="#step-by-step-calibration-sequence" title="Link to this heading"></a></h2>
+<p>Follow this sequence exactly to calibrate the system:</p>
+<ol class="arabic simple">
+<li><p><strong>Zero the Scale:</strong> Ensure the load cell is completely clear of all loads. Hold down the <strong>v</strong> key until the PV screen reads “Oy”, then release it. The PV screen should now stabilize at “0”.</p></li>
+<li><p><strong>Apply Calibration Weight:</strong> Carefully place your known calibration weight onto the load cell. The true mass of this object must exactly match the value previously configured in your <strong>USP</strong> parameter.</p></li>
+<li><p><strong>Configure the SV Screen:</strong></p>
+<ol class="loweralpha simple">
+<li><p>Hold down the <strong>^</strong> key until the SV LED screen begins to flash, then release it.</p></li>
+<li><p>Edit the value on the flashing SV screen using the <strong>&lt;&lt;/M</strong>, <strong>^</strong>, and <strong>v</strong> keys until it explicitly reflects the true mass of the object sitting on the load cell (this must match your USP setting).</p></li>
+<li><p>Press the <strong>SET</strong> key to finalize, store the calibration path, and exit.</p></li>
+</ol>
+</li>
+</ol>
+</section>
+<section id="verification-routine-testing">
+<h2>4. Verification &amp; Routine Testing<a class="headerlink" href="#verification-routine-testing" title="Link to this heading"></a></h2>
+<ul class="simple">
+<li><p><strong>Pre-Use Verification:</strong> A standard 1 kg calibration weight is stored directly with the equipment kits. This weight must be used to test the load cell’s accuracy before each experimental run. If the display fails to register exactly 1 kg, repeat the calibration sequence detailed in Section 3.</p></li>
+<li><p><strong>Historical Baseline:</strong> Initial calibration validation was verified using a sand-and-metal filled beaker (mass: 0.57 kg) and cross-checked against standard weights of 0.1 kg, 0.4 kg, and human scale footprints—confirming robust linearity across the operational spectrum.</p></li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>For a more comprehensive SOP, please consult the full <a class="reference external" href="https://uchicago.box.com/s/7c36lpzxupwu0mgonnkdt6xbxlkbhxwd">Load Cell Operation SOP on Box</a>.</p>
+</div>
+</section>
 </section>
 
 
            </div>
           </div>
           <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
-        <a href="needle_usage.html" class="btn btn-neutral float-left" title="Needle Usage SOP" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
-        <a href="coin_cell_disposal.html" class="btn btn-neutral float-right" title="Coin Cell Disposal SOP" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="needle_usage.html" class="btn btn-neutral float-left" title="Needle Usage Standard Operating Procedure" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="cell_assembly.html" class="btn btn-neutral float-right" title="Coin Cell Assembly SOPs (Molten Salt Systems)" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
 
   <hr/>
