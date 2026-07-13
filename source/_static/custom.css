@@ -1,3 +1,8 @@
 .hide-title h1 {
     display: none;
 }
+
+/* Force visited links to stay the default theme blue */
+.wy-nav-content a:visited {
+    color: #2980b9;
+}
