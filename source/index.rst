@@ -51,11 +51,13 @@ Amanchukwu Lab Wiki
 
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :caption: Code & Computation
 
-   Scientific Workloads <code/workloads_index>
-   Infrastructure <code/infrastructure_index>
+   HPC <code/hpc>
+   Coding Style Guide <code/coding_style_guide>
+   AI/ML <code/ai_ml>
+
 
 
 
