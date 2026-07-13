@@ -6,7 +6,7 @@ The glovebox maintains a highly controlled, inert atmosphere (Argon gas) designe
 The lab is equipped with three gloveboxes — GB1, GB2, and GB3 — each with a dedicated antechamber for transferring materials in and out of the main chamber. The antechamber is a critical component that allows for the evacuation of air and moisture from incoming items before they enter the glovebox environment.
 
 .. note::
-   * **Mandatory Training:** You must be fully trained by the current glovebox representative before using this equipment. To identify the representative, consult the `Lab Responsibility Excel Sheet <https://uchicago.box.com/s/iyovsosikblchxgv31x0mf8ci1zcm4qf>`_.
+   * **Mandatory Training:** You must be fully trained by the current glovebox representative before using this equipment. To identify the representative, consult the `Lab Responsibilities Excel Sheet <https://uchicago.box.com/s/iyovsosikblchxgv31x0mf8ci1zcm4qf>`_.
 
 Critical Safety & Environmental Rules
 ====================================
