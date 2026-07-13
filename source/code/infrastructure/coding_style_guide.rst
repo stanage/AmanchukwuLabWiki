@@ -2,8 +2,21 @@
 Coding Style Guide
 ==================
 
-Alkali metals (lithium, sodium, and potassium) are vital components of our laboratory's battery and catalysis research pipelines. Due to their extreme reactivity with air, moisture, and acids, these elements present significant fire, explosion, and toxicity hazards if mishandled. This page serves as a centralized protocol for their safe manipulation within the glovebox, the strict environmental controls required for catalysis testing, safe quenching practices, and compliant waste disposal for both bulk metal scraps and assembled coin cells.
+..
 
-------------------------------------------
-General Alkali Metals Usage Guidelines
-------------------------------------------
+.. figure:: ../../_static/curious_pikachu.png
+   :alt: curious pikachu
+   :align: center
+   :width: 300px
+
+
+.. raw:: html
+
+   <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+
+   <div align="center" style="display: flex; flex-direction: column; align-items: center; gap: 20px; margin-bottom: 24px;">
+      <p style="font-family: 'Caveat', cursive; font-size: 1.6rem;">
+        Oops! I don't have that information just yet. 
+      </p>
+   </div>
+

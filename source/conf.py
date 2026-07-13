@@ -1,6 +1,6 @@
 project = "Amanchukwu Lab Wiki"
 copyright = "2026, Amanchukwu Lab"
-author = "Amanchukwu Lab"
+author = "Stanley Eshiemogie"
 
 extensions = []
 
