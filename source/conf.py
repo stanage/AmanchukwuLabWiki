@@ -9,3 +9,9 @@ exclude_patterns = []
 
 html_theme = "sphinx_rtd_theme"
 html_static_path = ["_static"]
+
+
+# Add this to load your custom CSS
+html_css_files = [
+    "custom.css",
+]
