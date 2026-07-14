@@ -36,7 +36,6 @@ Amanchukwu Lab Wiki
    Load Cell Operation <sops/load_cell_operation>
    Coin Cell Disposal <sops/coin_cell_disposal>
    Cell Assembly <sops/cell_assembly>
-   Running Samples in the SMCF <sops/smcf>
    Plotting NMR and Raman Data <sops/plotting_nmr_and_raman>
    Lab purchases <sops/lab_purchases>
 
