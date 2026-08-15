@@ -56,6 +56,7 @@ Amanchukwu Lab Wiki
    HPC <code/hpc>
    Coding Style Guide <code/coding_style_guide>
    AI/ML <code/ai_ml>
+   DFT <code/dft>
 
 
 
