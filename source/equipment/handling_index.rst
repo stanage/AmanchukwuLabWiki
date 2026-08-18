@@ -10,3 +10,4 @@ These are used to synthesize, isolate, purify, or environmentally control sample
    handling/oven
    handling/flash_column
    handling/pd_membrane_prep_ubc
+   handling/mixer
