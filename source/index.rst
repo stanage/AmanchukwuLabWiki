@@ -53,10 +53,11 @@ Amanchukwu Lab Wiki
    :maxdepth: 1
    :caption: Code & Computation
 
-   HPC <code/hpc>
+   HPC <code/hpc_index>
    Coding Style Guide <code/coding_style_guide>
    AI/ML <code/ai_ml>
    DFT <code/dft>
+   MD (GROMACS) <code/md_index>
 
 
 
